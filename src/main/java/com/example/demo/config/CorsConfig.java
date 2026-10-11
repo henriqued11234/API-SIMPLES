@@ -11,7 +11,7 @@ public class CorsConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
                 .allowedOrigins(
-                        "https://abcd-ndjr.onrender.com",
+                        "https://pagina-exemplo-web.onrender.com",
                         "https://outra-pagina.com",
                         "http://localhost:5500",
                         "http://127.0.0.1:5500",
