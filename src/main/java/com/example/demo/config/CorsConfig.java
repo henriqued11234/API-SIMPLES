@@ -15,7 +15,8 @@ public class CorsConfig implements WebMvcConfigurer {
                         "https://outra-pagina.com",
                         "http://localhost:5500",
                         "http://127.0.0.1:5500",
-                        "null" // Libera abrir o arquivo HTML direto do computador (file:///)
+                    "https://paginaexemplo-020v.onrender.com/",
+                     "null" // Libera abrir o arquivo HTML direto do computador (file:///)
                 )
                 .allowCredentials(true)
                 .allowedHeaders(
